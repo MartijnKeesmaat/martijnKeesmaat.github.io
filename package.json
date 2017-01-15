@@ -1,0 +1,41 @@
+{
+  "name": "project-axis",
+  "version": "1.0.0",
+  "description": "Axis - makes sure your team is on the same line.",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-strip-comments": "^2.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartijnKeesmaat/Project-Axis.git"
+  },
+  "keywords": [
+    "Starterkit",
+    "smacss",
+    "bem",
+    "sass",
+    "boilerplate",
+    "gulp"
+  ],
+  "author": "Martijn Keesmaat (http://martijnkeesmaat.nl/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartijnKeesmaat/Project-Axis/issues"
+  },
+  "homepage": "https://github.com/MartijnKeesmaat/Project-Axis#readme"
+}

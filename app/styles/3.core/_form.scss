@@ -1,0 +1,89 @@
+/*------------------------------------*\
+  #Form
+\*------------------------------------*/
+
+textarea,
+select,
+input {
+  outline: none;
+  display: block;
+  width: 100%;
+  border: 1px solid $color-border;
+  transition: $transition1;
+  padding: 0.45em .9em;
+  background: none;
+  font-weight: 400;
+  max-width: 300px;
+  box-sizing: border-box;
+
+  &:focus{
+    border: 1px solid $oxford;
+  }
+}
+
+input[type=submit],
+input[type=radio],
+input[type=checkbox]{
+  width: initial;
+}
+
+input[type=submit] {
+  @extend .btn;
+  @extend .btn--rounded;
+  @extend .btn--big;
+  border: none;
+  margin-top: 15px;
+}
+
+label {
+  margin-bottom: 8px;
+  display: block;
+}
+
+input[type=radio]~label {
+  display: initial;
+}
+
+.checkbox,
+.radio{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+
+  input[type="checkbox"],
+  input[type="radio"]{
+    margin: 0 10px 0 0;
+  }
+}
+
+
+.st-form{
+  margin-bottom: 2.5rem;
+}
+
+.st-form--dark{
+  background: $oxford;
+  border: $oxford 1px solid;
+  color: #fff;
+
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+  }
+
+  &::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+  }
+
+  &:-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+  }
+
+  &:focus{
+    border: 1px solid $oxford;
+  }
+}
