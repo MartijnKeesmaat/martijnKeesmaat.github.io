@@ -1,0 +1,119 @@
+/*------------------------------------*\
+  #COLORS
+\*------------------------------------*/
+
+// Colors names
+$valencia                    : #DB206F;
+$oxford                      : #1C1E23;
+$charade                     : #282C37;
+$bayoux                      : #38415F;
+$nobel                       : #B6B6B6;
+$ebb                         : #EEE8E8;
+$yellow                      : #FAB437; 
+$athens-gray                 : #f6f6f6;
+$color-overlay               : #1c1e32;
+
+
+// Element-colors
+$color-main                  : $valencia;
+$color-main--light		     : lighten($color-main, 10%);
+$color-main--dark	         : darken($color-main, 10%);
+
+$color-secondary                  : $yellow;
+$color-secondary--light		     : lighten($color-secondary, 10%);
+$color-secondary--dark	         : darken($color-secondary, 10%);
+
+$color-white                 : #fff;
+$color-white--alt            : $athens-gray;
+$color-white--dark		     : darken(#fff, 10%);
+
+$color-black                 : $oxford;
+$color-black--alt		     : $charade;
+
+$color-header	             : #fff;
+$color-body          	     : #fff;
+$color-body--light   	     : #EEE8E8;
+
+$color-background            : $athens-gray;
+$color-background-dark       : $oxford;
+$color-background-dark--alt  : $charade;
+
+$color-border			     : rgba(182, 182, 182, 0.4);
+
+$color-selection		     : $color-main;
+$scrollbar-color			 : $color-main;
+
+
+
+
+
+/*------------------------------------*\
+  #GRADIENTS
+\*------------------------------------*/
+
+// Overlay
+$overlay                   : rgba(#1c1e32, .4);
+$overlay-vertical          : linear-gradient(to bottom, rgba($color-overlay, .6), rgba(0, 0, 0, 0));
+$overlay-horizontal        : linear-gradient(to right, rgba($color-overlay, .6), rgba(0, 0, 0, 0));
+
+
+
+
+
+/*------------------------------------*\
+  #TYPOGRAHPY
+\*------------------------------------*/
+
+// Fonts
+$font-header					     : Oswald, Helvetica, Arial, Sans-Serif;
+$font-body						     : 'Roboto Condensed', Helvetica, Arial, Sans-Serif;
+$font-body--medium			   : 'Roboto Condensed', Helvetica, Arial, Sans-Serif;
+$font-body--bold					 : 'Roboto Condensed', Helvetica, Arial, Sans-Serif;
+
+/*------------------------------------*\
+  #SHADOWS
+\*------------------------------------*/
+
+// Box-shadows
+$shadow-sm  	        		 : 1px 4px 9px rgba(0, 0, 0, 0.09), 0 4px 17px rgba(0, 0, 0, 0.1);
+$shadow-md	       			   : 5px 10px 20px rgba(0, 0, 0, 0.08), 1px 8px 46px rgba(0, 0, 0, 0.09);
+$shadow-lg	        			 : 15px 20px 30px rgba(0, 0, 0, 0.11), 1px 18px 46px rgba(0, 0, 0, 0.11);
+
+
+// Text-shadows
+$text-shadow-sm            : 2px 1px 4px rgba(#1d1d1d, 0.5);
+$text-shadow-lg            : 2px 1px 4px rgba(#1d1d1d, 0.7);
+
+
+
+
+
+/*------------------------------------*\
+  #ANIMATION
+\*------------------------------------*/
+
+// Transtions
+$transition1					    : 0.28s all ease;
+$transition2					    : 0.38s all ease;
+$transition3					    : 0.55s all ease;
+
+
+
+
+
+/*------------------------------------*\
+  #RESPONSIVE
+\*------------------------------------*/
+
+// Device widths
+$mobile-width             : 468px;
+$tablet-width             : 768px;
+$desktop-width            : 1024px;
+
+
+// Boostrap/Foundation
+$xl                       : 1200px;
+$lg                       : 979px;
+$md                       : 767px;
+$sm                       : 480px;
+$xs                       : 320px;
